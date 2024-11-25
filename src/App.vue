@@ -16,7 +16,7 @@ export default {
     }
   },
   mounted(){
-    axios.get('http://localhost:3000/api/users').then(response=>{
+    axios.get('http://49.51.52.168:3000/api/users').then(response=>{
       this.users = response.data;
     });
   }
